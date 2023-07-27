@@ -23,7 +23,7 @@ body {
   background-color: salmon;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .media-info-msg {
     opacity: 0;
   }
