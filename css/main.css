@@ -47,7 +47,7 @@ main {
 }
 
 .wirte-btn {
-  background-color: orange;
+  background-color: var(--button-primary);
   color: white;
   padding: 15px 20px 15px 20px;
   border-radius: 25px;
@@ -55,4 +55,10 @@ main {
   bottom: 120px;
   right: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.wirte-btn:hover {
+  background-color: var(--button-hover);
 }
